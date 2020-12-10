@@ -45,12 +45,12 @@ function TeacherForm() {
         schedule: scheduleItems,
       })
       .then(() => {
-        alert('Cadastro realizado com sucesso')
+        alert('Successful registration')
 
         history.push('/')
       })
       .catch(() => {
-        alert('Erro no cadastro')
+        alert('Registration error')
       })
   }
 
@@ -73,14 +73,14 @@ function TeacherForm() {
   return (
     <div id='page-teacher-form' className='container'>
       <PageHeader
-        title='Que incrivel que voce quer dar aulas.'
-        description='O primeiro passo e preencher o formulario de inscricao'
+        title='Amazing that you want to teach'
+        description='The first step is to fill out the registration form'
       />
 
       <main>
         <form onSubmit={handleCreateClass}>
           <fieldset>
-            <legend>Seus dados</legend>
+            <legend>Your info</legend>
 
             <Input
               name='name'
@@ -109,7 +109,7 @@ function TeacherForm() {
           </fieldset>
 
           <fieldset>
-            <legend>Sobre a aula</legend>
+            <legend>About the class</legend>
 
             <Select
               name='subject'
@@ -117,9 +117,9 @@ function TeacherForm() {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               options={[
-                { value: 'Artes', label: 'Artes' },
-                { value: 'Biologia', label: 'Biologia' },
-                { value: 'Ciencia', label: 'Ciencia' },
+                { value: 'Arts', label: 'Arts' },
+                { value: 'Biology', label: 'Biology' },
+                { value: 'Science', label: 'Science' },
                 { value: 'Math', label: 'Math' },
                 { value: 'English', label: 'English' },
                 { value: 'Quimics', label: 'Quimics' },
@@ -137,9 +137,9 @@ function TeacherForm() {
 
           <fieldset>
             <legend>
-              Horarios disponiveis
+              Available times
               <button type='button' onClick={addNewScheduleItem}>
-                + Novo horario
+                + New time
               </button>
             </legend>
 
@@ -192,7 +192,7 @@ function TeacherForm() {
               Important! <br />
               Fill all the fields
             </p>
-            <button type='submit'>Salvar cadastro</button>
+            <button type='submit'>Save registration</button>
           </footer>
         </form>
       </main>

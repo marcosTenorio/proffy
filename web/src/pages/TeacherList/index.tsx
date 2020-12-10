@@ -31,7 +31,7 @@ function TeacherList() {
 
   return (
     <div id='page-teacher-list' className='container'>
-      <PageHeader title='Estes sao os proffys disponiveis.'>
+      <PageHeader title='These are the available proffys.'>
         <form id='search-teachers' onSubmit={searchTeachers}>
           <Select
             name='subject'
@@ -39,9 +39,9 @@ function TeacherList() {
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
             options={[
-              { value: 'Artes', label: 'Artes' },
-              { value: 'Biologia', label: 'Biologia' },
-              { value: 'Ciencia', label: 'Ciencia' },
+              { value: 'Arts', label: 'Arts' },
+              { value: 'Biology', label: 'Biology' },
+              { value: 'Science', label: 'Science' },
               { value: 'Math', label: 'Math' },
               { value: 'English', label: 'English' },
               { value: 'Quimics', label: 'Quimics' },
