@@ -13,7 +13,8 @@
 <p align="center">
   <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
 </p>
 
 <p align="center">
@@ -34,7 +35,7 @@
 - [Express](https://expressjs.com/)
 - [axios](https://github.com/axios/axios)
 
-## :boom: How to run
+## :information_source: How to run
 
 - ### **Requirementss**
 
@@ -57,7 +58,7 @@
   # Install the dependencies
   $ yarn install
   # Configure the database and create the tables
-  $ yarn knex:migrate # ou npm run knex:migrate
+  $ yarn knex:migrate # or npm run knex:migrate
 
   # Run the API
   $ yarn start
@@ -76,3 +77,14 @@
   # Run mobile app
   $ yarn start
 ```
+## :mailbox_with_mail: Get in touch!
+<a href="https://www.linkedin.com/in/marcos-tenorio12/" target="_blank" >
+  <img alt="Linkedin - Marcos Tenorio" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:marcos.francajr@gmail.com" target="_blank" >
+  <img alt="Email - Marcos Tenorio" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> 
+
+---
+
+Made with :coffee: and ❤️ by Marcos Tenorio.
